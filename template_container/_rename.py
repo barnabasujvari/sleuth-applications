@@ -9,5 +9,6 @@ import click
 def _rename(search, replace):
     for dirpath, dirnames, filenames in os.walk("."):
         for filename in filenames:
-            filereplace(os.path.join(dirpath, filename),search,replace)
-            print()
+            full_path = os.path.join(dirpath, filename)
+            filereplace(full_path,search,replace)
+            os.rename(full_path,full_path.replace(search,replace))
