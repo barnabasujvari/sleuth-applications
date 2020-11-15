@@ -1,0 +1,50 @@
+openapi: 3.0.0
+info:
+  title: sleuth ai api template
+  version: '1.0'
+  description: an api template for sleuth ai
+  contact:
+    name: Sleuth AI
+    email: contact@sleuth-ai.com
+    url: sleuth-ai.com
+  termsOfService: sleuth-ai.com/privacy_policy
+servers:
+  - url: 'http://platform.sleuth-ai.com/template_container'
+paths:
+  /hello_world:
+    get:
+      summary: get hello world request
+      tags:
+        - hello-world-tag
+      responses:
+        '200':
+          description: OK
+      description: examples get request
+    put:
+      summary: put hello world request
+      tags: []
+      description: example put request
+      parameters:
+        - schema:
+            type: string
+          in: query
+          name: hello_message
+      responses:
+        '200':
+          description: OK
+          headers: {}
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  hello-world-response:
+                    type: string
+              examples:
+                example-1:
+                  value:
+                    hello-world-response: some response txt
+components:
+  schemas: {}
+tags:
+  - name: hello-world-tag
