@@ -5,7 +5,7 @@ from connexion.resolver import RestyResolver
 from waitress import serve
 
 PORT = os.getenv('PORT', 9090)
-SERVICE_NAME = 'Template'
+SERVICE_NAME = 'template_container'
 
 def get_app():
     app = connexion.FlaskApp(__name__, port=PORT, options={'swagger_ui': True}, resolver=RestyResolver('api'))
