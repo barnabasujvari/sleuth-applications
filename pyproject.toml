@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "template_container"
+name = "new_container"
 version = "0.1.0"
 description = ""
 authors = ["Christoph Minixhofer <christoph.minixhofer@gmail.com>"]
@@ -10,15 +10,15 @@ connexion = "^2.7.0"
 Flask-Cors = "^3.0.9"
 waitress = "^1.4.4"
 coverage = "^5.3"
+bump2version = "^1.0.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
-tbump = "^6.1.1"
 click = "^7.1.2"
 
 [tool.poetry.scripts]
-container = 'template_container:template_container.main'
-rename = 'template_container:_rename._rename'
+container = 'new_container:new_container.main'
+rename = 'new_container:_rename._rename'
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
