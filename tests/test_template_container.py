@@ -8,9 +8,6 @@ def client():
     with get_app().app.test_client() as c:
         yield c
 
-def test_version():
-    assert __version__ == '0.1.0'
-
 def test_hello_world_get(client):
     response = client.get('/template_container/hello_world')
     assert response.status_code == 200
