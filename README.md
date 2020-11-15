@@ -25,6 +25,10 @@ poetry run container
 poetry install
 poetry run pytest
 ````
+## Release
+````
+poetry run tbump [new version]
+````
 ## Container
 ````
 docker build -t template_container .
