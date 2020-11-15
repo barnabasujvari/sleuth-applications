@@ -1,7 +1,8 @@
 name: Release
 on:
-  release:
-    types: [published]
+    create:
+      tags:
+        - v*
 jobs:
   push_to_registry:
     name: Test and Push Docker image to GitHub Packages
