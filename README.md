@@ -27,7 +27,8 @@ poetry run pytest
 ````
 ## Release
 ````
-poetry run tbump [new version]
+poetry run bumpversion [major|minor|patch]
+git push --tags
 ````
 ## Container
 ````
