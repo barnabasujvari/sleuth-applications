@@ -1,6 +1,8 @@
 # template_container
+![Tests](https://github.com/Sleuth-Capital/template_container/workflows/Tests/badge.svg)
 ![Build](https://github.com/Sleuth-Capital/template_container/workflows/Build/badge.svg)
-![tests](https://github.com/Sleuth-Capital/template_container/workflows/Tests/badge.svg)
+![Release](https://github.com/Sleuth-Capital/template_container/workflows/Release/badge.svg)
+
 
 This is a template repository for a new Sleuth AI service.
 Use the following steps to adapt it to a new container.
