@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: sleuth ai api template
   version: '1.0'
-  description: an api template for sleuth ai
+  description: template_container API
   contact:
     name: Sleuth AI
     email: contact@sleuth-ai.com
