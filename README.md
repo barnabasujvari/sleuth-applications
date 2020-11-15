@@ -12,6 +12,7 @@ Use the following steps to adapt it to a new container.
 3. Run ``poetry rename``
 4. Modify ``reference/api.yaml``
 5. Modify the contents of ``api`` to suit your ``api.yaml``
+6. Run ``poetry run bumpversion [major|minor|patch]`` and the repository will automagically create a docker image and release
 
 *Make sure to make the service available at* **``/template_container``** *in production!*
 
