@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "new_container"
+name = "template_container"
 version = "0.0.0"
 description = ""
 authors = ["Christoph Minixhofer <christoph.minixhofer@gmail.com>"]
