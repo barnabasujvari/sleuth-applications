@@ -6,8 +6,8 @@ info:
   contact:
     name: Sleuth AI
     email: contact@sleuth-ai.com
-    url: sleuth-ai.com
-  termsOfService: sleuth-ai.com/privacy_policy
+    url: http://sleuth-ai.com
+  termsOfService: http://sleuth-ai.com/privacy_policy
 servers:
   - url: 'http://platform.sleuth-ai.com/template_container'
 paths:
