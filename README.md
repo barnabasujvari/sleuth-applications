@@ -10,7 +10,7 @@ Use the following steps to adapt it to a new container.
 4. Modify ``reference/api.yaml``
 5. Modify the contents of ``api`` to suit your ``api.yaml``
 
-*Make sure make the service available at* **/template_container** *in production!*
+*Make sure make the service available at* **``/template_container``** *in production!*
 
 ## Development
 ````
