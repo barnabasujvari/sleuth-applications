@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  title: sleuth ai api template
+  title: template_container API
   version: '1.0'
   description: template_container API
   contact:
