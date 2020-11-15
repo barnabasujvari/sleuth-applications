@@ -10,7 +10,6 @@ connexion = "^2.7.0"
 Flask-Cors = "^3.0.9"
 waitress = "^1.4.4"
 coverage = "^5.3"
-python-util = "^1.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

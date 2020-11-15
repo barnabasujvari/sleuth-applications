@@ -1,14 +1,27 @@
 # container_template
 ![Build](https://github.com/Sleuth-Capital/template_container/workflows/Build/badge.svg)
 
-template for sleuth containers
-## development
+This is a template repository for a new Sleuth AI service.
+Use the following steps to adapt it to a new container.
+
+1. Click [use this template](https://github.com/Sleuth-Capital/container_template/generate)
+2. Run ``poetry install``
+3. Run ``poetry rename``
+4. Modify ``reference/api.yaml``
+5. Modify the contents of ``api`` to suit your ``api.yaml``
+
+## Development
 ````
 poetry install
-poetry run python main.py
+poetry run container
 ````
-## container
+## Test
 ````
-docker build -t container_template .
-docker run -p 9090:9090 container_template
+poetry install
+poetry run pytest
+````
+## Container
+````
+docker build -t template_container .
+docker run -p 9090:9090 template_container
 ````

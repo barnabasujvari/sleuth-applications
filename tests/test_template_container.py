@@ -1,4 +1,5 @@
-from template_container import __version__, get_app
+from template_container import __version__
+from template_container.template_container import get_app
 import pytest
 import json
 
