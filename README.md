@@ -9,7 +9,7 @@ Use the following steps to adapt it to a new container.
 
 1. Click [use this template](https://github.com/Sleuth-Capital/template_container/generate)
 2. Run ``poetry install``
-3. Run ``poetry rename``
+3. Run ``poetry run rename``
 4. Modify ``reference/api.yaml``
 5. Modify the contents of ``api`` to suit your ``api.yaml``
 6. Run ``poetry run bumpversion [major|minor|patch]`` and the repository will automagically create a docker image and release
