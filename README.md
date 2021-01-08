@@ -3,7 +3,7 @@
 This is a template repository for a new Sleuth AI service.
 Use the following steps to adapt it to a new container.
 
-1. Click [use this template](https://github.com/Sleuth-Capital/template_container/generate)
+1. Clone this repository
 2. Run ``poetry install``
 3. Run ``poetry run rename``
 4. Modify ``reference/api.yaml``
