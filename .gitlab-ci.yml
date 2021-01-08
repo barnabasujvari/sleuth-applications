@@ -15,7 +15,8 @@ before_script:
 test:
   stage: test
   script:
-    - poetry run pytest
+    - poetry run coverage run -m pytest
+    - poetry run coverage report -m
 
 docker-build-master:
   image: docker:stable
