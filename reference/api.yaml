@@ -45,6 +45,14 @@ paths:
                   value:
                     hello-world-response: some response txt
 components:
+  securitySchemes:
+    jwt:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      x-bearerInfoFunc: api.hello_world.decode_token
   schemas: {}
+security:
+  - jwt: ['secret']
 tags:
   - name: hello-world-tag

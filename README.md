@@ -19,6 +19,7 @@ Use the following steps to adapt it to a new container.
 ## Development
 ````
 poetry install
+export DISABLE_OAUTH="True"
 poetry run container
 ````
 ## Test
