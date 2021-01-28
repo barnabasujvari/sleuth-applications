@@ -23,8 +23,7 @@ def test_hello_world_get(client):
 
 def test_hello_world_put(client):
     response = client.put(
-        "/template_container/hello_world",
-        json={"hello_message": "some_message"},
+        "/template_container/hello_world?hello_message=some_message",
         headers=test_auth,
     )
     assert response.status_code == 200
