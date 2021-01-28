@@ -6,9 +6,13 @@ Use the following steps to adapt it to a new container.
 1. Clone this repository
 2. Run ``poetry install``
 3. Run ``poetry run rename``
-4. Modify ``reference/api.yaml``
-5. Modify the contents of ``api`` to suit your ``api.yaml``
-6. Run ``poetry run bumpversion [major|minor|patch]`` and the repository will automagically create a docker image and release
+4. Run ``git --bare init``
+5. Create new repository on gitlab and run
+    ```
+    git remote add origin https://gitlab.com/sleuth-ai/template_container.git
+    git push -u origin --all
+    git push -u origin --tags
+    ```
 
 *Make sure to make the service available at* **``/template_container``** *in production!*
 
