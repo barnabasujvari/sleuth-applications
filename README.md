@@ -6,9 +6,10 @@ Use the following steps to adapt it to a new container.
 1. Clone this repository
 2. Run ``poetry install``
 3. Run ``poetry run rename``
-4. Run ``git --bare init``
-5. Create new repository on gitlab and run
+4. Create new repository on gitlab and run
     ```
+    git --bare init
+    git remote remove origin
     git remote add origin https://gitlab.com/sleuth-ai/template_container.git
     git push -u origin --all
     git push -u origin --tags
