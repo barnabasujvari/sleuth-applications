@@ -3,6 +3,8 @@ import connexion
 from flask_cors import CORS
 from connexion.resolver import RestyResolver
 from waitress import serve
+from dotenv import load_dotenv
+load_dotenv()
 
 PORT = os.getenv("PORT", 9090)
 SERVICE_NAME = "template_container"
