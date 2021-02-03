@@ -50,7 +50,7 @@ components:
       type: http
       scheme: bearer
       bearerFormat: JWT
-      x-bearerInfoFunc: api.hello_world.decode_token
+      x-bearerInfoFunc: api.oauth.decode_token
   schemas: {}
 security:
   - jwt: ['secret']
