@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "template_container"
+name = "applications_container"
 version = "0.0.0"
 description = ""
 authors = ["Christoph Minixhofer <christoph.minixhofer@gmail.com>"]
@@ -22,8 +22,8 @@ click = "^7.1.2"
 pytest-env = "^0.6.2"
 
 [tool.poetry.scripts]
-container = 'template_container:template_container.main'
-rename = 'template_container:_rename._rename'
+container = 'applications_container:applications_container.main'
+rename = 'applications_container:_rename._rename'
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

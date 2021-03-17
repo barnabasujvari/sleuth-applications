@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 PORT = os.getenv("PORT", 9090)
-SERVICE_NAME = "template_container"
+SERVICE_NAME = "applications_container"
 
 
 def get_app():

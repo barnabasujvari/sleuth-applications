@@ -3,4 +3,4 @@ omit =
     # omit anything in a site-packages directory anywhere
     */site-packages/*
     # omit python utility
-    template_container/_rename.py
+    applications_container/_rename.py

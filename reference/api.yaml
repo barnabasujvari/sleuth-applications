@@ -1,15 +1,15 @@
 openapi: 3.0.0
 info:
-  title: template_container API
+  title: applications_container API
   version: '1.0'
-  description: template_container API
+  description: applications_container API
   contact:
     name: Sleuth AI
     email: contact@sleuth-ai.com
     url: http://sleuth-ai.com
   termsOfService: http://sleuth-ai.com/privacy_policy
 servers:
-  - url: 'http://platform.sleuth-ai.com/template_container'
+  - url: 'http://platform.sleuth-ai.com/applications_container'
 paths:
   /hello_world:
     get:

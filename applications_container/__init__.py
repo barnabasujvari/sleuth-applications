@@ -10,4 +10,4 @@ def get_version():
 
 __version__ = get_version()
 
-from . import _rename, template_container
+from . import _rename, applications_container

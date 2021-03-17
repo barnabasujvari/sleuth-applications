@@ -13,8 +13,8 @@ def replace_in_file(filename, search, replace):
 
 
 @click.command()
-@click.option("--search", prompt="Search", default="template_container")
-@click.option("--replace", prompt="Replace", default="template_container")
+@click.option("--search", prompt="Search", default="applications_container")
+@click.option("--replace", prompt="Replace", default="applications_container")
 def _rename(search, replace):
     for dirpath, dirnames, filenames in os.walk("."):
         for filename in filenames:

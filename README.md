@@ -1,4 +1,4 @@
-# template_container
+# applications_container
 
 This is a template repository for a new Sleuth AI service.
 Use the following steps to adapt it to a new container.
@@ -10,12 +10,12 @@ Use the following steps to adapt it to a new container.
     ```
     git init
     git remote remove origin
-    git remote add origin https://gitlab.com/sleuth-ai/template_container.git
+    git remote add origin https://gitlab.com/sleuth-ai/applications_container.git
     git push -u origin --all
     git push -u origin --tags
     ```
 
-*Make sure to make the service available at* **``/template_container``** *in production!*
+*Make sure to make the service available at* **``/applications_container``** *in production!*
 
 ## Development
 ````
@@ -35,6 +35,6 @@ git push --tags
 ````
 ## Container
 ````
-docker build -t template_container .
-docker run -p 9090:9090 template_container
+docker build -t applications_container .
+docker run -p 9090:9090 applications_container
 ````
