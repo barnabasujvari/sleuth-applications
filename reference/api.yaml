@@ -11,24 +11,18 @@ info:
 servers:
   - url: 'http://platform.sleuth-ai.com/applications_container'
 paths:
-  /hello_world:
+  /get_ticker/{comment}:
     get:
-      summary: get hello world request
-      tags:
-        - hello-world-tag
-      responses:
-        '200':
-          description: OK
-      description: examples get request
-    put:
-      summary: put hello world request
+      summary: put comment and return tickers
       tags: []
-      description: example put request
+      description: put comment and return tickers
       parameters:
-        - schema:
+        - in: path
+          name: comment
+          schema:
             type: string
-          in: query
-          name: hello_message
+          required: true
+          description: comment to find tickers in
       responses:
         '200':
           description: OK
@@ -36,23 +30,19 @@ paths:
           content:
             application/json:
               schema:
-                type: object
-                properties:
-                  hello-world-response:
-                    type: string
-              examples:
-                example-1:
-                  value:
-                    hello-world-response: some response txt
+                $ref: '#/components/schemas/tickers'
+        '501':
+          description: ERROR
+          headers: {}
+          content:
+            application/json:
+              schema:
+                type: string
 components:
-  securitySchemes:
-    jwt:
-      type: http
-      scheme: bearer
-      bearerFormat: JWT
-      x-bearerInfoFunc: api.oauth.decode_token
-  schemas: {}
-security:
-  - jwt: ['secret']
+  schemas:
+    tickers:
+      type: array
+      items: 
+        type: string
 tags:
-  - name: hello-world-tag
+  - name: ticker
