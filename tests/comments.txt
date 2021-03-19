@@ -1,0 +1,47 @@
+IN:YOLOing my stimmy tomorrow during the short attack. Valhalla is waiting for us
+OUT:[]
+
+IN:This is the 8th market day in a row that GME has closed above $200 GME has not closed below $100 since February 25th, 22 days in a row
+OUT:["GME"]
+
+IN:PSYCH!!!!! AH is gonna be a snore fest but come PM we gonna see the rocket boosters engage and we are going straight to the fucking moon
+OUT:[]
+
+IN:Snoop Dogg using Robinhood infinite leverage glitch for OTM puts on AAPL earnings GUH
+OUT:["AAPL"]
+
+IN:$UWMC $40k yolo. Read some DD. Apparently if I buy shares a GSqueeze is more likely to happen
+OUT:["UWMC"]
+
+IN:I believe strongly, that AMC will make a big "Comeback" after this lockdown
+OUT:["AMC"]
+
+IN:CNK stock was 1.9x higher at around $45 and AMC was 2.5x higher at around $35
+OUT:["CNK","AMC"]
+
+IN:I’ve been hearing NOK will go up for what seems like an eternity. It’s diluted as fuck.
+OUT:["NOK"]
+
+IN:This could be BB's time to shine depending on their growth with Cyclance and other security services they provide
+OUT:["BB"]
+
+IN:GME announced the resignation of the CFO and mentioned that IF they did not replace him by the 26 March, they would let the SVP of finance take an interim CFO role.
+OUT:["GME"]
+
+IN:Do we have ANY info, or is there ANY outcome, that is not favorable for us?
+OUT:[]
+
+IN:Based on my research, Scion Asset Management acquired 1.15M shares of $LUMN at an average value of $9.74 per share.
+OUT:["LUMN"]
+
+IN:Knocked it out of the park. PLTR down 5%, checks out
+OUT:["PLTR"]
+
+IN:Was looking at getting AMC before putting all into GME. I like both Stonks and hope they both fly together
+OUT:["AMC","GME"]
+
+IN:MVIS had an earnings call on Thursday during which the CEO Sumit Sharma was noticeably excited.
+OUT:["MVIS"]
+
+IN:RKT move was funny though have to say I can only imagine the UWM ceo watching the 8th RKT Ad and throwing his pop corn across the house.
+OUT:["RKT","UWM"]
