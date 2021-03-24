@@ -4,7 +4,7 @@ When the assignment is complete, please add @PatrickTourniaire and @MiniXC as co
 
 We are asking you to implement a function which finds valid stock tickers in a given string.
 You can find it under `api/get_ticker.py`.
-Optionally, you also expand the tests found int `tests/test_applications_container.py`.
+Optionally, you also expand the tests found in `tests/test_applications_container.py`.
 
 *This functionality has already been solved in the Sleuth AI platform, and your implementation remains your personal intellectual property.*
 
