@@ -4,7 +4,6 @@ When the assignment is complete, please add [@PatrickTourniaire](https://github.
 
 We are asking you to implement a function which finds valid stock tickers in a given string.
 You can find it under `api/get_ticker.py`.
-Optionally, you also expand the tests found in `tests/test_applications_container.py`.
 
 *This functionality has already been solved in the Sleuth AI platform, and your implementation remains your personal intellectual property.*
 
@@ -15,6 +14,8 @@ Your first steps could be:
 2. install [poetry](https://pypi.org/project/poetry/) for package management
 2. run `poetry install`
 3. run `poetry run pytest`
+4. you will now see 5 failed tests. Can you make them pass?
+5. optionally, you also expand these tests found in `tests/test_applications_container.py`, using the data found in `tests/comments.txt`.
 
 Feel free to use any publicly available pypi packages, you can add them by using `poetry add some-package`.
 For any questions about the assignment, please open an issue on this repository.
