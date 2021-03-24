@@ -1,6 +1,6 @@
 # applications_container
 This is a coding assignment for Sleuth AI applicants. The deadline for this assignment is **7. April 2021 at 16:00 GMT**.
-When the assignment is complete, please add @PatrickTourniaire and @MiniXC as collaborators to your private fork of this repository.
+When the assignment is complete, please add [@PatrickTourniaire](https://github.com/PatrickTourniaire) and [@MiniXC](https://github.com/MiniXC) as collaborators to your private fork of this repository.
 
 We are asking you to implement a function which finds valid stock tickers in a given string.
 You can find it under `api/get_ticker.py`.
